@@ -13,33 +13,7 @@
         zoom:0.75;
     }
 
-    [style*="--aspect-ratio"]> :first-child {
-      width: 100%;
-    }
-
-    [style*="--aspect-ratio"]>img {
-      height: auto;
-    }
-
-    @supports (--custom:property) {
-      [style*="--aspect-ratio"] {
-        position: relative;
-      }
-
-      [style*="--aspect-ratio"]::before {
-        content: "";
-        display: block;
-        padding-bottom: calc(100% / (var(--aspect-ratio)));
-      }
-
-      [style*="--aspect-ratio"]> :first-child {
-        position: absolute;
-        top: 0;
-        left: 0;
-        height: 100%;
-      }
-    }
-
+  
     iframe {
       margin: 30px;
       padding:1.5em;
@@ -59,740 +33,181 @@
   <hr>
   
   
-  
-  
-  
-  <iframe width="100%" height="1200" src="https://webdevhub-1.gitbook.io/mynotes/" allowfullscreen="allowfullscreen"
-    allowpaymentrequest frameborder="0"></iframe>
-  
-  
-  
-<!-------------------------------------------------------------------------------------->
-<br>
-<hr>
 
-
-          <!-- start of freefind search box html -->
-          <table cellpadding=0 cellspacing=0 border=0>
+  <!-- start of freefind search box html -->
+  <table cellpadding=0 cellspacing=0 border=0>
+    <tr>
+      <td style="font-family: Arial, Helvetica, sans-serif; font-size: 7.5pt;">
+        <center>
+          <table width="90%" cellpadding=0 cellspacing=0 border=0
+            style="font-family: Arial, Helvetica, sans-serif; font-size: 7.5pt;">
             <tr>
-              <td style="font-family: Arial, Helvetica, sans-serif; font-size: 7.5pt;">
-                <center>
-                  <table width="90%" cellpadding=0 cellspacing=0 border=0
-                    style="font-family: Arial, Helvetica, sans-serif; font-size: 7.5pt;">
-                    <tr>
-                      <td style="font-family: Arial, Helvetica, sans-serif; font-size: 7.5pt;" align=left><a
-                          href="https://search.freefind.com/siteindex.html?si=79970144">index</a></td>
-                      <td style="font-family: Arial, Helvetica, sans-serif; font-size: 7.5pt;" align=center><a
-                          href="https://search.freefind.com/find.html?si=79970144&amp;m=0&amp;p=0">sitemap</a></td>
-                      <td style="font-family: Arial, Helvetica, sans-serif; font-size: 7.5pt;" align=right><a
-                          href="https://search.freefind.com/find.html?si=79970144&amp;pid=a">advanced</a></td>
-                    </tr>
-                  </table>
-                </center>
-                <form style="margin:0px; margin-top:4px;" action="https://search.freefind.com/find.html" method="get"
-                  accept-charset="utf-8" target="_self">
-                  <input type="hidden" name="si" value="79970144">
-                  <input type="hidden" name="pid" value="r">
-                  <input type="hidden" name="n" value="0">
-                  <input type="hidden" name="_charset_" value="">
-                  <input type="hidden" name="bcd" value="&#247;">
-                  <input type="text" name="query" size="15">
-                  <input type="submit" value="search">
-                </form>
-              </td>
-            </tr>
-            <tr>
-              <td
-                style="text-align:center; font-family: Arial, Helvetica, sans-serif;	font-size: 7.5pt; padding-top:4px;">
-                <a style="text-decoration:none; color:gray;" href="https://www.freefind.com" rel="nofollow">search
-                  engine</a><a style="text-decoration:none; color:gray;" href="https://www.freefind.com" rel="nofollow">
-                  by
-                  <span style="color: #606060;">freefind</span></a>
-              </td>
+              <td style="font-family: Arial, Helvetica, sans-serif; font-size: 7.5pt;" align=left><a
+                  href="https://search.freefind.com/siteindex.html?si=79970144">index</a></td>
+              <td style="font-family: Arial, Helvetica, sans-serif; font-size: 7.5pt;" align=center><a
+                  href="https://search.freefind.com/find.html?si=79970144&amp;m=0&amp;p=0">sitemap</a></td>
+              <td style="font-family: Arial, Helvetica, sans-serif; font-size: 7.5pt;" align=right><a
+                  href="https://search.freefind.com/find.html?si=79970144&amp;pid=a">advanced</a></td>
             </tr>
           </table>
-          <!-- end of freefind search box html -->
+        </center>
+        <form style="margin:0px; margin-top:4px;" action="https://search.freefind.com/find.html" method="get"
+          accept-charset="utf-8" target="_self">
+          <input type="hidden" name="si" value="79970144">
+          <input type="hidden" name="pid" value="r">
+          <input type="hidden" name="n" value="0">
+          <input type="hidden" name="_charset_" value="">
+          <input type="hidden" name="bcd" value="&#247;">
+          <input type="text" name="query" size="15">
+          <input type="submit" value="search">
+        </form>
+      </td>
+    </tr>
+    <tr>
+      <td style="text-align:center; font-family: Arial, Helvetica, sans-serif;	font-size: 7.5pt; padding-top:4px;">
+        <a style="text-decoration:none; color:gray;" href="https://www.freefind.com" rel="nofollow">search
+          engine</a><a style="text-decoration:none; color:gray;" href="https://www.freefind.com" rel="nofollow">
+          by
+          <span style="color: #606060;">freefind</span></a>
+      </td>
+    </tr>
+  </table>
+  <!-- end of freefind search box html -->
 
 
 
 
-<hr>  
-<br>
-<!-------------------------------------------------------------------------------------->
-<br>
-<hr>
-
-
-
-      
-            <iframe height="600" style="width: 100%;" scrolling="no" title="Javascript Sudoku Puzzle Generator"
-              src="https://codepen.io/bgoonz/embed/rNybKqy?height=375&theme-id=dark&default-tab=js,result"
-              frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
-              See the Pen <a href='https://codepen.io/bgoonz/pen/rNybKqy'>Javascript Sudoku Puzzle Generator</a> by
-              Bryan C Guner
-              (<a href='https://codepen.io/bgoonz'>@bgoonz</a>) on <a href='https://codepen.io'>CodePen</a>.
-            </iframe>
-
-
-
-
-<hr>  
-<br>
-<!-------------------------------------------------------------------------------------->
-<br>
-<hr>
-
-
-      
-            <iframe height="600" style="width: 100%;" scrolling="no" title="Visualizing The Earth's Orbit &amp; Seasons"
-              src="https://codepen.io/bgoonz/embed/xxqezyP?height=375&theme-id=dark&default-tab=css,result"
-              frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
-              See the Pen <a href='https://codepen.io/bgoonz/pen/xxqezyP'>Visualizing The Earth's Orbit &amp;
-                Seasons</a> by Bryan
-              C Guner
-              (<a href='https://codepen.io/bgoonz'>@bgoonz</a>) on <a href='https://codepen.io'>CodePen</a>.
-            </iframe>
-
-
-
-
-<hr>  
-<br>
-<!-------------------------------------------------------------------------------------->
-<br>
-<hr>
-
-
-
-      
-            <iframe height="600" style="width: 100%;" scrolling="no" title="DOM Tree Visualisation"
-              src="https://codepen.io/bgoonz/embed/oNZOyad?height=375&theme-id=dark&default-tab=js,result"
-              frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
-              See the Pen <a href='https://codepen.io/bgoonz/pen/oNZOyad'>DOM Tree Visualisation</a> by Bryan C Guner
-              (<a href='https://codepen.io/bgoonz'>@bgoonz</a>) on <a href='https://codepen.io'>CodePen</a>.
-            </iframe>
-
-
-
-<hr>  
-<br>
-<!-------------------------------------------------------------------------------------->
-<br>
-<hr>
-
-
-
-      
-            <iframe height="600" style="width: 100%;" scrolling="no"
-              title="Solar system as if it's an atom [now responsive]"
-              src="https://codepen.io/bgoonz/embed/YzZMvJO?height=375&theme-id=dark&default-tab=js,result"
-              frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
-              See the Pen <a href='https://codepen.io/bgoonz/pen/YzZMvJO'>Solar system as if it's an atom [now
-                responsive]</a> by
-              Bryan C Guner
-              (<a href='https://codepen.io/bgoonz'>@bgoonz</a>) on <a href='https://codepen.io'>CodePen</a>.
-            </iframe>
-
-
-
-
-<hr>  
-<br>
-<!-------------------------------------------------------------------------------------->
-<br>
-<hr>
-
-      
-            <iframe height="600" style="width: 100%;" scrolling="no" title="Flower of Planets"
-              src="https://codepen.io/bgoonz/embed/mdWgKza?height=375&theme-id=dark&default-tab=js,result"
-              frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
-              See the Pen <a href='https://codepen.io/bgoonz/pen/mdWgKza'>Flower of Planets</a> by Bryan C Guner
-              (<a href='https://codepen.io/bgoonz'>@bgoonz</a>) on <a href='https://codepen.io'>CodePen</a>.
-            </iframe>
-
-
-
-
-
-<hr>  
-<br>
-<!-------------------------------------------------------------------------------------->
-<br>
-<hr>
-      
-            <iframe height="600" style="width: 100%;" scrolling="no" title="Video Background"
-              src="https://codepen.io/bgoonz/embed/GRWLGYz?height=375&theme-id=dark&default-tab=css,result"
-              frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
-              See the Pen <a href='https://codepen.io/bgoonz/pen/GRWLGYz'>Video Background</a> by Bryan C Guner
-              (<a href='https://codepen.io/bgoonz'>@bgoonz</a>) on <a href='https://codepen.io'>CodePen</a>.
-            </iframe>
-
-
-
-
-
-
-<hr>  
-<br>
-<!-------------------------------------------------------------------------------------->
-<br>
-<hr>
-
-          <p class="codepen" data-height="600" data-theme-id="dark" data-default-tab="css,result" data-user="bgoonz"
-            data-slug-hash="BaWEVqg"
-            style="height: 375px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;"
-            data-pen-title="Fourier [css] Transform">
-            <span>See the Pen <a href="https://codepen.io/bgoonz/pen/BaWEVqg">
-                Fourier [css] Transform</a> by Bryan C Guner (<a href="https://codepen.io/bgoonz">@bgoonz</a>)
-              on <a href="https://codepen.io">CodePen</a>.</span>
-          </p>
-          <script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
-
-
-<hr>  
-<br>
-<!-------------------------------------------------------------------------------------->
-<br>
-<hr>
-
-          <iframe
-            src="https://codesandbox.io/embed/graphiql-js-next-example-forked-z1pew?fontsize=14&hidenavigation=1&theme=dark"
-            style="width:100%; height:500px; border:0; border-radius: 4px; overflow:hidden;"
-            title="graphiql-js-next-example (forked)"
-            allow="accelerometer; ambient-light-sensor; camera; encrypted-media; geolocation; gyroscope; hid; microphone; midi; payment; usb; vr; xr-spatial-tracking"
-            sandbox="allow-forms allow-modals allow-popups allow-presentation allow-same-origin allow-scripts"></iframe>
-
-
-
-
-<hr>  
-<br>
-<!-------------------------------------------------------------------------------------->
-<br>
-<hr>
-
-      
-            <iframe height="600" style="width: 100%;" scrolling="no" title="Video Background" src="    
-?height=375&theme-id=dark&default-tab=css,result" frameborder="no" loading="lazy" allowtransparency="true"
-              allowfullscreen="true">
-              See the Pen <a href='https://codepen.io/bgoonz/pen/GRWLGYz'>Video Background</a> by Bryan C Guner
-              (<a href='https://codepen.io/bgoonz'>@bgoonz</a>) on <a href='https://codepen.io'>CodePen</a>.
-            </iframe>
-
-
-
-
-
-<hr>  
-<br>
-<!-------------------------------------------------------------------------------------->
-<br>
-<hr>
-
-
-
-
-      
-            <iframe height="600" style="width: 100%;" scrolling="no" title="Don't Overthink It Grids"
-              src="https://stackblitz.com/edit/graphql-kiflse?devtoolsheight=33&embed=1&file=index.js&theme=dark"
-              frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
-
-            </iframe>
-
-
-
-
-
-<hr>  
-<br>
-<!-------------------------------------------------------------------------------------->
-<br>
-<hr>
-      
-            <iframe height="600" style="width: 100%;" scrolling="no" title="Don't Overthink It Grids"
-              src="https://exploring-firebase-4c023.firebaseapp.com/" frameborder="no" loading="lazy"
-              allowtransparency="true" allowfullscreen="true">
-
-            </iframe>
-
-
-
-
-
-
-<hr>  
-<br>
-<!-------------------------------------------------------------------------------------->
-<br>
-<hr>
-
-
-
-      
-            <iframe src="https://codesandbox.io/embed/gatsby-site-forked-hbbi6?fontsize=14&hidenavigation=1&theme=dark"
-              style="width:100%; height:500px; border:0; border-radius: 4px; overflow:hidden;"
-              title="gatsby-site (forked)"
-              allow="accelerometer; ambient-light-sensor; camera; encrypted-media; geolocation; gyroscope; hid; microphone; midi; payment; usb; vr; xr-spatial-tracking"
-              sandbox="allow-forms allow-modals allow-popups allow-presentation allow-same-origin allow-scripts"></iframe>
-
-
-
-  <hr>  
-<br>
-<!-------------------------------------------------------------------------------------->
-<br>
-<hr>
-
-
-
-            <iframe
-              src="https://codesandbox.io/embed/infinite-scroll-forked-nt43z?autoresize=1&expanddevtools=1&fontsize=14&hidenavigation=1&theme=dark"
-              style="width:100%; height:500px; border:0; border-radius: 4px; overflow:hidden;"
-              title="Infinite Scroll (forked)"
-              allow="accelerometer; ambient-light-sensor; camera; encrypted-media; geolocation; gyroscope; hid; microphone; midi; payment; usb; vr; xr-spatial-tracking"
-              sandbox="allow-forms allow-modals allow-popups allow-presentation allow-same-origin allow-scripts"></iframe>
-
-
-  <hr>  
-<br>
-<!-------------------------------------------------------------------------------------->
-<br>
-<hr>
-
-
-
-        
-              <iframe
-                src="https://codesandbox.io/embed/react-ui-podcast-forked-27pip?fontsize=14&hidenavigation=1&theme=dark"
-                style="width:100%; height:500px; border:0; border-radius: 4px; overflow:hidden;"
-                title="react-ui-podcast (forked)"
-                allow="accelerometer; ambient-light-sensor; camera; encrypted-media; geolocation; gyroscope; hid; microphone; midi; payment; usb; vr; xr-spatial-tracking"
-                sandbox="allow-forms allow-modals allow-popups allow-presentation allow-same-origin allow-scripts"></iframe>
-
-
-
-
-    <hr>  
-<br>
-<!-------------------------------------------------------------------------------------->
-<br>
-<hr>
-
-
-
-
-          
-                <iframe width="100%" height="1200" src="https://webdevhub-1.gitbook.io/mynotes/"
-                  allowfullscreen="allowfullscreen" allowpaymentrequest frameborder="0"></iframe>
-
-
-
-
-
-      <hr>  
-<br>
-<!-------------------------------------------------------------------------------------->
-<br>
-<hr>
-
-
-                <iframe
-                  src="https://codesandbox.io/embed/sharp-night-hlivb?autoresize=1&codemirror=1&expanddevtools=1&fontsize=11&hidenavigation=1&theme=dark"
-                  style="width:100%; height:500px; border:0; border-radius: 4px; overflow:hidden;"
-                  title="sharp-night-hlivb"
-                  allow="accelerometer; ambient-light-sensor; camera; encrypted-media; geolocation; gyroscope; hid; microphone; midi; payment; usb; vr; xr-spatial-tracking"
-                  sandbox="allow-forms allow-modals allow-popups allow-presentation allow-same-origin allow-scripts"></iframe>
-
-
-
-      <hr>  
-<br>
-<!-------------------------------------------------------------------------------------->
-<br>
-<hr>
-
-            
-                  <iframe
-                    src="https://codesandbox.io/embed/ecstatic-beaver-qkylf?fontsize=14&hidenavigation=1&theme=dark"
-                    style="width:100%; height:500px; border:0; border-radius: 4px; overflow:hidden;"
-                    title="ecstatic-beaver-qkylf"
-                    allow="accelerometer; ambient-light-sensor; camera; encrypted-media; geolocation; gyroscope; hid; microphone; midi; payment; usb; vr; xr-spatial-tracking"
-                    sandbox="allow-forms allow-modals allow-popups allow-presentation allow-same-origin allow-scripts"></iframe>
-
-
-        <hr>  
-<br>
-<!-------------------------------------------------------------------------------------->
-<br>
-<hr>
-
-
-
-              
-                    <iframe width="100%" height="1200" src="https://documentation-site-react2.vercel.app/"
-                      allowfullscreen="allowfullscreen" allowpaymentrequest frameborder="0"></iframe>
-
-
-
-
-
-                    <hr>
-                    <br>
-          <hr>  
-<br>
-<!-------------------------------------------------------------------------------------->
-<br>
-<hr>
-                    <br>
-                    <hr>
-
-
-
-
-
-                    <iframe height="600" style="width: 100%;" scrolling="no" title="X-ray me (SVG Experiment)"
-                      src="https://codepen.io/bgoonz/embed/abWZQzW?default-tab=html%2Cresult&theme-id=dark"
-                      frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
-                      See the Pen <a href="https://codepen.io/bgoonz/pen/abWZQzW">
-                        X-ray me (SVG Experiment)</a> by Bryan C Guner (<a href="https://codepen.io/bgoonz">@bgoonz</a>)
-                      on <a href="https://codepen.io">CodePen</a>.
-                    </iframe>
-
-
-
-
-                    <hr>
-                    <br>
-          <hr>  
-<br>
-<!-------------------------------------------------------------------------------------->
-<br>
-<hr>
-                    <br>
-                    <hr>
-
-
-
-
-                    <iframe height="600" style="width: 100%;" scrolling="no" title="Bullseye Game"
-                      src="https://codepen.io/bgoonz/embed/XWRKyJN?default-tab=html%2Cresult&theme-id=dark"
-                      frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
-                      See the Pen <a href="https://codepen.io/bgoonz/pen/XWRKyJN">
-                        Bullseye Game</a> by Bryan C Guner (<a href="https://codepen.io/bgoonz">@bgoonz</a>)
-                      on <a href="https://codepen.io">CodePen</a>.
-                    </iframe>
-
-
-
-
-                    <hr>
-                    <br>
-          <hr>  
-<br>
-<!-------------------------------------------------------------------------------------->
-<br>
-<hr>
-                    <br>
-                    <hr>
-
-
-
-
-
-                    <iframe height="600" style="width: 100%;" scrolling="no"
-                      title="Musical Chord Progression Arpeggiator"
-                      src="https://codepen.io/bgoonz/embed/MWmezYK?default-tab=html%2Cresult&theme-id=dark"
-                      frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
-                      See the Pen <a href="https://codepen.io/bgoonz/pen/MWmezYK">
-                        Musical Chord Progression Arpeggiator</a> by Bryan C Guner (<a
-                        href="https://codepen.io/bgoonz">@bgoonz</a>)
-                      on <a href="https://codepen.io">CodePen</a>.
-                    </iframe>
-
-
-
-                    <hr>
-                    <br>
-          <hr>  
-<br>
-<!-------------------------------------------------------------------------------------->
-<br>
-<hr>
-                    <br>
-                    <hr>
-
-
-
-
-
-                    <iframe height="600" style="width: 100%;" scrolling="no" title="Flexbox playground"
-                      src="https://codepen.io/bgoonz/embed/ZEKOmYW?default-tab=html%2Cresult&theme-id=dark"
-                      frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
-                      See the Pen <a href="https://codepen.io/bgoonz/pen/ZEKOmYW">
-                        Flexbox playground</a> by Bryan C Guner (<a href="https://codepen.io/bgoonz">@bgoonz</a>)
-                      on <a href="https://codepen.io">CodePen</a>.
-                    </iframe>
-
-
-
-
-                    <hr>
-                    <br>
-          <hr>  
-<br>
-<!-------------------------------------------------------------------------------------->
-<br>
-<hr>
-                    <br>
-                    <hr>
-
-
-
-
-
-
-
-                    <iframe height="600" style="width: 100%;" scrolling="no" title="Meshi the CSS Dog"
-                      src="https://codepen.io/bgoonz/embed/yLbJQyN?default-tab=html%2Cresult&theme-id=dark"
-                      frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
-                      See the Pen <a href="https://codepen.io/bgoonz/pen/yLbJQyN">
-                        Meshi the CSS Dog</a> by Bryan C Guner (<a href="https://codepen.io/bgoonz">@bgoonz</a>)
-                      on <a href="https://codepen.io">CodePen</a>.
-                    </iframe>
-
-                    <hr>
-                    <br>
-          <hr>  
-<br>
-<!-------------------------------------------------------------------------------------->
-<br>
-<hr>
-                    <br>
-                    <hr>
-
-
-
-
-
-
-                    <iframe height="600" style="width: 100%;" scrolling="no" title="Low Poly Tree Generator"
-                      src="https://codepen.io/bgoonz/embed/bGWeQGJ?default-tab=html%2Cresult&theme-id=dark"
-                      frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
-                      See the Pen <a href="https://codepen.io/bgoonz/pen/bGWeQGJ">
-                        Low Poly Tree Generator</a> by Bryan C Guner (<a href="https://codepen.io/bgoonz">@bgoonz</a>)
-                      on <a href="https://codepen.io">CodePen</a>.
-                    </iframe>
-
-
-                    <hr>
-                    <br>
-          <hr>  
-<br>
-<!-------------------------------------------------------------------------------------->
-<br>
-<hr>
-                    <br>
-                    <hr>
-
-
-
-
-
-
-                    <iframe height="600" style="width: 100%;" scrolling="no" title="Css3 Transform"
-                      src="https://codepen.io/bgoonz/embed/QWvEJWe?default-tab=html%2Cresult&theme-id=dark"
-                      frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
-                      See the Pen <a href="https://codepen.io/bgoonz/pen/QWvEJWe">
-                        Css3 Transform</a> by Bryan C Guner (<a href="https://codepen.io/bgoonz">@bgoonz</a>)
-                      on <a href="https://codepen.io">CodePen</a>.
-                    </iframe>
-
-
-
-                    <hr>
-                    <br>
-          <hr>  
-<br>
-<!-------------------------------------------------------------------------------------->
-<br>
-<hr>
-                    <br>
-                    <hr>
-
-
-
-
-
-                    <iframe height="600" style="width: 100%;" scrolling="no" title="Pull Down to Refresh (Paper Plane)"
-                      src="https://codepen.io/bgoonz/embed/GRmqwRX?default-tab=html%2Cresult&theme-id=dark"
-                      frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
-                      See the Pen <a href="https://codepen.io/bgoonz/pen/GRmqwRX">
-                        Pull Down to Refresh (Paper Plane)</a> by Bryan C Guner (<a
-                        href="https://codepen.io/bgoonz">@bgoonz</a>)
-                      on <a href="https://codepen.io">CodePen</a>.
-                    </iframe>
-
-
-
-                    <hr>
-                    <br>
-          <hr>  
-<br>
-<!-------------------------------------------------------------------------------------->
-<br>
-<hr>
-                    <br>
-                    <hr>
-
-
-
-
-
-                    <iframe height="600" style="width: 100%;" scrolling="no" title="CSS-only Colorful Calendar Concept"
-                      src="https://codepen.io/bgoonz/embed/vYmKQYj?default-tab=html%2Cresult&theme-id=dark"
-                      frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
-                      See the Pen <a href="https://codepen.io/bgoonz/pen/vYmKQYj">
-                        CSS-only Colorful Calendar Concept</a> by Bryan C Guner (<a
-                        href="https://codepen.io/bgoonz">@bgoonz</a>)
-                      on <a href="https://codepen.io">CodePen</a>.
-                    </iframe>
-
-
-
-                    <hr>
-                    <br>
-          <hr>  
-<br>
-<!-------------------------------------------------------------------------------------->
-<br>
-<hr>
-                    <br>
-                    <hr>
-
-
-
-
-                    <iframe height="600" style="width: 100%;" scrolling="no" title="Birds of a Feather"
-                      src="https://codepen.io/bgoonz/embed/oNWLQNo?default-tab=html%2Cresult&theme-id=dark"
-                      frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
-                      See the Pen <a href="https://codepen.io/bgoonz/pen/oNWLQNo">
-                        Birds of a Feather</a> by Bryan C Guner (<a href="https://codepen.io/bgoonz">@bgoonz</a>)
-                      on <a href="https://codepen.io">CodePen</a>.
-                    </iframe>
-                    <hr>
-                    <br>
-          <hr>  
-<br>
-<!-------------------------------------------------------------------------------------->
-<br>
-<hr>
-                    <br>
-                    <hr>
-
-
-
-
-
-                    <iframe height="600" style="width: 100%;" scrolling="no" title="pen#PwLXXP"
-                      src="https://codepen.io/bgoonz/embed/ExmyOxZ?default-tab=html%2Cresult&theme-id=dark"
-                      frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
-                      See the Pen <a href="https://codepen.io/bgoonz/pen/ExmyOxZ">
-                        pen#PwLXXP</a> by Bryan C Guner (<a href="https://codepen.io/bgoonz">@bgoonz</a>)
-                      on <a href="https://codepen.io">CodePen</a>.
-                    </iframe>
-
-
-                    <hr>
-                    <br>
-          <hr>  
-<br>
-<!-------------------------------------------------------------------------------------->
-<br>
-<hr>
-                    <br>
-                    <hr>
-
-
-
-
-                    <iframe height="600" style="width: 100%;" scrolling="no" title="CSS3 Working Clock"
-                      src="https://codepen.io/bgoonz/embed/yLbJQLN?default-tab=html%2Cresult&theme-id=dark"
-                      frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
-                      See the Pen <a href="https://codepen.io/bgoonz/pen/yLbJQLN">
-                        CSS3 Working Clock</a> by Bryan C Guner (<a href="https://codepen.io/bgoonz">@bgoonz</a>)
-                      on <a href="https://codepen.io">CodePen</a>.
-                    </iframe>
-
-
-
-
-                    <hr>
-                    <br>
-          <hr>  
-<br>
-<!-------------------------------------------------------------------------------------->
-<br>
-<hr>
-                    <br>
-                    <hr>
-
-
-
-
-                    <iframe height="600" style="width: 100%;" scrolling="no" title="pen#PwLXXP"
-                      src="https://codepen.io/bgoonz/embed/ExmyOxZ?default-tab=html%2Cresult&theme-id=dark"
-                      frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
-                      See the Pen <a href="https://codepen.io/bgoonz/pen/ExmyOxZ">
-                        pen#PwLXXP</a> by Bryan C Guner (<a href="https://codepen.io/bgoonz">@bgoonz</a>)
-                      on <a href="https://codepen.io">CodePen</a>.
-                    </iframe>
-
-
-
-
-
-                    <hr>
-                    <br>
-          <hr>  
-<br>
-<!-------------------------------------------------------------------------------------->
-<br>
-<hr>
-                    <br>
-                    <hr>
-
-
-
-
-
-
-                    <iframe height="600" style="width: 100%;" scrolling="no"
-                      title="Responsive Huggy Laser Panda Factory"
-                      src="https://codepen.io/bgoonz/embed/qBmNQBX?default-tab=html%2Cresult&theme-id=dark"
-                      frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
-                      See the Pen <a href="https://codepen.io/bgoonz/pen/qBmNQBX">
-                        Responsive Huggy Laser Panda Factory</a> by Bryan C Guner (<a
-                        href="https://codepen.io/bgoonz">@bgoonz</a>)
-                      on <a href="https://codepen.io">CodePen</a>.
-                    </iframe>
-
-
-                    <hr>
-                    <br>
-          <hr>  
-<br>
-<!-------------------------------------------------------------------------------------->
-  
-  
-  <hr>
-  <br>
   <!-------------------------------------------------------------------------------------->
 
 
-<br>
-<hr>
-                    <br>
-                    <hr>
+
+  <br>
+  <iframe height="375" style="width: 100%;" scrolling="no" title="Javascript Sudoku Puzzle Generator"
+    src="https://codepen.io/bgoonz/embed/rNybKqy?height=375&theme-id=dark&default-tab=js,result" frameborder="no"
+    loading="lazy" allowtransparency="true" allowfullscreen="true">
+    See the Pen <a href='https://codepen.io/bgoonz/pen/rNybKqy'>Javascript Sudoku Puzzle Generator</a> by
+    Bryan C Guner
+    (<a href='https://codepen.io/bgoonz'>@bgoonz</a>) on <a href='https://codepen.io'>CodePen</a>.
+  </iframe>
+  <br>
+
+
+
+  <!-------------------------------------------------------------------------------------->
+
+
+  <br>
+  <iframe height="375" style="width: 100%;" scrolling="no" title="Visualizing The Earth's Orbit &amp; Seasons"
+    src="https://codepen.io/bgoonz/embed/xxqezyP?height=375&theme-id=dark&default-tab=css,result" frameborder="no"
+    loading="lazy" allowtransparency="true" allowfullscreen="true">
+    See the Pen <a href='https://codepen.io/bgoonz/pen/xxqezyP'>Visualizing The Earth's Orbit &amp;
+      Seasons</a> by Bryan
+    C Guner
+    (<a href='https://codepen.io/bgoonz'>@bgoonz</a>) on <a href='https://codepen.io'>CodePen</a>.
+  </iframe>
+  <br>
+
+
+
+  <!-------------------------------------------------------------------------------------->
+
+
+
+  <br>
+  <iframe height="375" style="width: 100%;" scrolling="no" title="DOM Tree Visualisation"
+    src="https://codepen.io/bgoonz/embed/oNZOyad?height=375&theme-id=dark&default-tab=js,result" frameborder="no"
+    loading="lazy" allowtransparency="true" allowfullscreen="true">
+    See the Pen <a href='https://codepen.io/bgoonz/pen/oNZOyad'>DOM Tree Visualisation</a> by Bryan C Guner
+    (<a href='https://codepen.io/bgoonz'>@bgoonz</a>) on <a href='https://codepen.io'>CodePen</a>.
+  </iframe>
+  <br>
+
+
+  <!-------------------------------------------------------------------------------------->
+
+
+
+  <br>
+  <iframe height="375" style="width: 100%;" scrolling="no" title="Solar system as if it's an atom [now responsive]"
+    src="https://codepen.io/bgoonz/embed/YzZMvJO?height=375&theme-id=dark&default-tab=js,result" frameborder="no"
+    loading="lazy" allowtransparency="true" allowfullscreen="true">
+    See the Pen <a href='https://codepen.io/bgoonz/pen/YzZMvJO'>Solar system as if it's an atom [now
+      responsive]</a> by
+    Bryan C Guner
+    (<a href='https://codepen.io/bgoonz'>@bgoonz</a>) on <a href='https://codepen.io'>CodePen</a>.
+  </iframe>
+  <br>
+
+
+
+  <!-------------------------------------------------------------------------------------->
+
+  <br>
+  <iframe height="375" style="width: 100%;" scrolling="no" title="Flower of Planets"
+    src="https://codepen.io/bgoonz/embed/mdWgKza?height=375&theme-id=dark&default-tab=js,result" frameborder="no"
+    loading="lazy" allowtransparency="true" allowfullscreen="true">
+    See the Pen <a href='https://codepen.io/bgoonz/pen/mdWgKza'>Flower of Planets</a> by Bryan C Guner
+    (<a href='https://codepen.io/bgoonz'>@bgoonz</a>) on <a href='https://codepen.io'>CodePen</a>.
+  </iframe>
+  <br>
+
+
+
+
+  <!-------------------------------------------------------------------------------------->
+  <br>
+  <iframe height="375" style="width: 100%;" scrolling="no" title="Video Background"
+    src="https://codepen.io/bgoonz/embed/GRWLGYz?height=375&theme-id=dark&default-tab=css,result" frameborder="no"
+    loading="lazy" allowtransparency="true" allowfullscreen="true">
+    See the Pen <a href='https://codepen.io/bgoonz/pen/GRWLGYz'>Video Background</a> by Bryan C Guner
+    (<a href='https://codepen.io/bgoonz'>@bgoonz</a>) on <a href='https://codepen.io'>CodePen</a>.
+  </iframe>
+  <br>
+
+
+
+
+
+  <!-------------------------------------------------------------------------------------->
+
+  <p class="codepen" data-height="375" data-theme-id="dark" data-default-tab="css,result" data-user="bgoonz"
+    data-slug-hash="BaWEVqg"
+    style="height: 375px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;"
+    data-pen-title="Fourier [css] Transform">
+    <span>See the Pen <a href="https://codepen.io/bgoonz/pen/BaWEVqg">
+        Fourier [css] Transform</a> by Bryan C Guner (<a href="https://codepen.io/bgoonz">@bgoonz</a>)
+      on <a href="https://codepen.io">CodePen</a>.</span>
+  </p>
+  <script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
+
+
+  <!-------------------------------------------------------------------------------------->
+
+  <iframe
+    src="https://codesandbox.io/embed/graphiql-js-next-example-forked-z1pew?fontsize=14&hidenavigation=1&theme=dark"
+    style="width:100%; height:500px; border:0; border-radius: 4px; overflow:hidden;"
+    title="graphiql-js-next-example (forked)"
+    allow="accelerometer; ambient-light-sensor; camera; encrypted-media; geolocation; gyroscope; hid; microphone; midi; payment; usb; vr; xr-spatial-tracking"
+    sandbox="allow-forms allow-modals allow-popups allow-presentation allow-same-origin allow-scripts"></iframe>
+
+
+
+
+  <!-------------------------------------------------------------------------------------->
+
+  <br>
+  <iframe height="375" style="width: 100%;" scrolling="no" title="Video Background" src="    
+?height=375&theme-id=dark&default-tab=css,result" frameborder="no" loading="lazy" allowtransparency="true"
+    allowfullscreen="true">
+    See the Pen <a href='https://codepen.io/bgoonz/pen/GRWLGYz'>Video Background</a> by Bryan C Guner
+    (<a href='https://codepen.io/bgoonz'>@bgoonz</a>) on <a href='https://codepen.io'>CodePen</a>.
+  </iframe>
+  <br>
+
+
+
+
+  <!-------------------------------------------------------------------------------------->
 
 
 
@@ -801,29 +216,76 @@
 
 
 
-
-                    <hr>
-                    <br>
-          <hr>  
-<br>
-<!-------------------------------------------------------------------------------------->
-<br>
-<hr>
-                    <br>
-                    <hr>
+  <!-------------------------------------------------------------------------------------->
 
 
 
+  <br>
+  <iframe src="https://codesandbox.io/embed/gatsby-site-forked-hbbi6?fontsize=14&hidenavigation=1&theme=dark"
+    style="width:100%; height:500px; border:0; border-radius: 4px; overflow:hidden;" title="gatsby-site (forked)"
+    allow="accelerometer; ambient-light-sensor; camera; encrypted-media; geolocation; gyroscope; hid; microphone; midi; payment; usb; vr; xr-spatial-tracking"
+    sandbox="allow-forms allow-modals allow-popups allow-presentation allow-same-origin allow-scripts"></iframe>
 
-                    <hr>
-                    <br>
-          <hr>  
-<br>
-<!-------------------------------------------------------------------------------------->
-<br>
-<hr>
-                    <br>
-                    <hr>
+
+
+  <!-------------------------------------------------------------------------------------->
+
+
+
+  <iframe
+    src="https://codesandbox.io/embed/infinite-scroll-forked-nt43z?autoresize=1&expanddevtools=1&fontsize=14&hidenavigation=1&theme=dark"
+    style="width:100%; height:500px; border:0; border-radius: 4px; overflow:hidden;" title="Infinite Scroll (forked)"
+    allow="accelerometer; ambient-light-sensor; camera; encrypted-media; geolocation; gyroscope; hid; microphone; midi; payment; usb; vr; xr-spatial-tracking"
+    sandbox="allow-forms allow-modals allow-popups allow-presentation allow-same-origin allow-scripts"></iframe>
+
+
+  <!-------------------------------------------------------------------------------------->
+
+
+
+
+
+
+  <!-------------------------------------------------------------------------------------->
+
+
+  <br>
+  <iframe src="https://codesandbox.io/embed/react-ui-podcast-forked-27pip?fontsize=14&hidenavigation=1&theme=dark"
+    style="width:100%; height:500px; border:0; border-radius: 4px; overflow:hidden;" title="react-ui-podcast (forked)"
+    allow="accelerometer; ambient-light-sensor; camera; encrypted-media; geolocation; gyroscope; hid; microphone; midi; payment; usb; vr; xr-spatial-tracking"
+    sandbox="allow-forms allow-modals allow-popups allow-presentation allow-same-origin allow-scripts"></iframe>
+
+
+
+
+  <!-------------------------------------------------------------------------------------->
+
+
+
+
+
+  <!-------------------------------------------------------------------------------------->
+
+
+  <iframe
+    src="https://codesandbox.io/embed/sharp-night-hlivb?autoresize=1&codemirror=1&expanddevtools=1&fontsize=11&hidenavigation=1&theme=dark"
+    style="width:100%; height:500px; border:0; border-radius: 4px; overflow:hidden;" title="sharp-night-hlivb"
+    allow="accelerometer; ambient-light-sensor; camera; encrypted-media; geolocation; gyroscope; hid; microphone; midi; payment; usb; vr; xr-spatial-tracking"
+    sandbox="allow-forms allow-modals allow-popups allow-presentation allow-same-origin allow-scripts"></iframe>
+
+
+
+  <!-------------------------------------------------------------------------------------->
+
+  <br>
+  <iframe src="https://codesandbox.io/embed/ecstatic-beaver-qkylf?fontsize=14&hidenavigation=1&theme=dark"
+    style="width:100%; height:500px; border:0; border-radius: 4px; overflow:hidden;" title="ecstatic-beaver-qkylf"
+    allow="accelerometer; ambient-light-sensor; camera; encrypted-media; geolocation; gyroscope; hid; microphone; midi; payment; usb; vr; xr-spatial-tracking"
+    sandbox="allow-forms allow-modals allow-popups allow-presentation allow-same-origin allow-scripts"></iframe>
+
+
+  <!-------------------------------------------------------------------------------------->
+
 
 
 
