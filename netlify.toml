@@ -2,5 +2,3 @@
   publish = "dist"
   command = "yarn build"
   functions = "lambda" # netlify-lambda reads this
-yarn add netlify-lambda
-./node_modules/.bin/netlify-lambda build functions
