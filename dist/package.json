@@ -1,0 +1,24 @@
+{
+  "name": "random-list-of-embedable-content",
+  "version": "1.0.0",
+  "description": "# [Live Site](https://embedable-content.netlify.app/)",
+  "main": "index.js",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "netlify-lambda": "^2.0.11"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bgoonz/random-list-of-embedable-content.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bgoonz/random-list-of-embedable-content/issues"
+  },
+  "homepage": "https://github.com/bgoonz/random-list-of-embedable-content#readme"
+}
