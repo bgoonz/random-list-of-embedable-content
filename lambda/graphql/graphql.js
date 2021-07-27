@@ -1,4 +1,4 @@
-const { ApolloServer, gql } = require('apollo-server-lambda')
+const { ApolloServer, gql } = require("apollo-server-lambda");
 
 const typeDefs = gql`
   type Query {
@@ -12,31 +12,31 @@ const typeDefs = gql`
     name: String!
     married: Boolean!
   }
-`
+`;
 
 const authors = [
-  { id: 1, name: 'Bryan Guner', married: false },
-  { id: 2, name: 'Bryan Guner', married: true },
-  { id: 3, name: 'Bryan Guner', married: false },
-]
+  { id: 1, name: "Bryan Guner", married: false },
+  { id: 2, name: "Bryan Guner", married: true },
+  { id: 3, name: "Bryan Guner", married: false },
+];
 
 const resolvers = {
   Query: {
-    hello: () => 'Hello, world!',
+    hello: () => "Hello, world!",
     allAuthors: () => authors,
     author: () => {},
     authorByName: (root, args) => {
-      console.log('hihhihi', args.name)
-      return authors.find((author) => author.name === args.name) || 'NOTFOUND'
+      console.log("hihhihi", args.name);
+      return authors.find((author) => author.name === args.name) || "NOTFOUND";
     },
   },
-}
+};
 
 const server = new ApolloServer({
   typeDefs,
   resolvers,
-})
+});
 
-const handler = server.createHandler()
+const handler = server.createHandler();
 
-module.exports = { handler }
+module.exports = { handler };
