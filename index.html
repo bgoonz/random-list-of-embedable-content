@@ -7,109 +7,42 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <title>Document</title>
   <style>
-    li {
-      float: left;
+    .pages {
+      display: flex;
+      border-radius: 20px;
       list-style: none;
       text-align: center;
       background-color: #000000;
-      width: 100px;
-      line-height: 38px;
+      width: 50px;
+      line-height: 28px;
     }
-a{
-  border: white 2px solid;
-  box-shadow: 1px whitesmoke;
-}
+
+    .gcse-search-box {
+      border-radius: 20px !important;
+      border: 4px solid gold!important;
+      width: 50px;
+      line-height: 28px;
+            color: #000000;
+      background-color: #33B5E5;
+    }
+
+    .pages,
     li a {
       text-decoration: capatalize;
       color: #FFFFFF;
       display: block;
     }
 
-    li a:hover {
+    .pages li a:hover {
       text-decoration: none;
       color: #000000;
       background-color: #33B5E5;
     }
 
-    .menu
-
-    /* layout main menu */
-      {
-      clear: both;
-      float: left;
-      margin-top: 1em;
-      padding-bottom: 1em;
-      width: 100%;
-      background-color: gimgrey;
-      background-image: url('/templates/swimming/images/logo.png');
-      background-repeat: no-repeat;
-    }
-
-    ul.menu {
-      display: table;
-      margin-left: auto;
-      margin-right: 0em;
-    }
-
-    .menu li
-
-    /* horizontal menu layout */
-      {
-      display: inline-block;
-      border: 3px solid #FFFFFF;
-      border-radius: 10px;
-      background-color: #4180dd;
-    }
-
-    .menu li a:hover
-
-    /* link style on-mouse-over */
-      {
-      color: #FFFFFF;
-      text-transform: uppercase;
-      text-decoration: none;
-    }
-
-    .menu li:hover
-
-    /* button style on-mouse-over */
-      {
-      border: 3px solid #FFFFFF;
-      border-radius: 10px;
-      background-color: #dd417f;
-    }
-
-    .menu li a
-
-    /* link style */
-      {
-      color: #FFFFFF;
-      font-size: 1em;
-      text-transform: uppercase;
-      text-decoration: none;
-      display: inline-block;
-      padding: 0.7em 1em 0.7em 1em;
-    }
-
-    .menu li.active a
-
-    /* active menu item style */
-      {
-      color: #FFFFFF;
-      text-transform: uppercase;
-      text-decoration: none;
-    }
-
-    .menu li.active
-
-    /* active menu button style */
-      {
-      border: 3px solid #FFFFFF;
-      border-radius: 10px;
-      background-color: #dd417f;
-    }
 
     iframe {
+      border: 4px solid gold;
+      border-radius: 20px;
       background-color: aliceblue;
       width: 400px;
       height: 650px;
@@ -144,30 +77,23 @@ a{
           fill="black" class="octo-body"></path>
       </svg></a>
     <br>
-    <br>
-    <br>
-    <div>
-      <script async src="https://cse.google.com/cse.js?cx=b9b42c05e18ccf4ab"></script>
-      <div class="gcse-search"></div>
-    </div>
-    <br>
-    <br>
+
     <!----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------->
     <!----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------->
     <br>
     <!-- start of freefind search box html -->
     <table cellpadding=0 cellspacing=0 border=0>
       <tr>
-        <td style="font-family: Arial, Helvetica, sans-serif; font-size: 7.5pt;">
+        <td style="font-family: Arial, Helvetica, sans-serif; font-size: 10.5pt;">
           <center>
             <table width="90%" cellpadding=0 cellspacing=0 border=0
-              style="font-family: Arial, Helvetica, sans-serif; font-size: 7.5pt;">
+              style="font-family: Arial, Helvetica, sans-serif; font-size: 10.5pt;">
               <tr>
-                <td style="font-family: Arial, Helvetica, sans-serif; font-size: 7.5pt;" align=left><a
+                <td style="font-family: Arial, Helvetica, sans-serif; font-size: 10.5pt;" align=left><a
                     href="https://search.freefind.com/siteindex.html?si=79970144">index</a></td>
-                <td style="font-family: Arial, Helvetica, sans-serif; font-size: 7.5pt;" align=center><a
+                <td style="font-family: Arial, Helvetica, sans-serif; font-size: 10.5pt;" align=center><a
                     href="https://search.freefind.com/find.html?si=79970144&amp;m=0&amp;p=0">sitemap</a></td>
-                <td style="font-family: Arial, Helvetica, sans-serif; font-size: 7.5pt;" align=right><a
+                <td style="font-family: Arial, Helvetica, sans-serif; font-size: 10.5pt;" align=right><a
                     href="https://search.freefind.com/find.html?si=79970144&amp;pid=a">advanced</a></td>
               </tr>
             </table>
@@ -184,13 +110,7 @@ a{
           </form>
         </td>
       </tr>
-      <tr>
-        <td style="text-align:center; font-family: Arial, Helvetica, sans-serif;	font-size: 7.5pt; padding-top:4px;">
-          <a style="text-decoration:none; color:gray;" href="https://www.freefind.com" rel="nofollow">search
-            engine</a><a style="text-decoration:none; color:gray;" href="https://www.freefind.com" rel="nofollow">
-            by
-            <span style="color: #606060;">freefind</span></a>
-        </td>
+
       </tr>
     </table>
     <!-- end of freefind search box html -->
@@ -199,19 +119,25 @@ a{
     <br>
     <br>
     <ul>
-      <li><a class="menu" href="https://random-list-of-embedable-content.vercel.app/">Page 1</a></li>
-      <li><a class="menu" href="https://random-list-of-embedable-content.vercel.app/page2.html">Page 2</a></li>
-      <li><a class="menu" href="https://random-list-of-embedable-content.vercel.app/page3.html">Page 3</a></li>
-      <li><a class="menu" href="https://random-list-of-embedable-content.vercel.app/page4.html"> Page 4</a></li>
+      <li><a class="menu pages " href="https://random-list-of-embedable-content.vercel.app/">Page 1</a></li>
+      <li><a class="menu pages" href="https://random-list-of-embedable-content.vercel.app/page2.html">Page 2</a></li>
+      <li><a class="menu pages" href="https://random-list-of-embedable-content.vercel.app/page3.html">Page 3</a></li>
+      <li><a class="menu pages" href="https://random-list-of-embedable-content.vercel.app/page4.html"> Page 4</a></li>
     </ul>
     <br>
     <br>
+
+    <br>
+    <div class="gsce-search-box">
+      <script async src="https://cse.google.com/cse.js?cx=b9b42c05e18ccf4ab"></script>
+      <div class="gcse-search"></div>
+    </div>
     <br>
     <br>
     <br>
-    <br>
-    <br>
-    <br>
+        <br>
+        <br>
+        <br>
     <!----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------->
     <iframe height="300" style="width: 90%;" scrolling="no" title="searchblog2.0"
       src="https://codepen.io/bgoonz/embed/LYyBwEp?default-tab=result&theme-id=dark" frameborder="no" loading="lazy"
@@ -274,7 +200,7 @@ a{
     <br>
     <br>
     <iframe height="300" style="width: 90%;" scrolling="no" src="//jsfiddle.net/bgoonz/3mpgzkx7/1/embedded/"
-      allowfullscreen="allowfullscreen" frameborder="0"></iframe>
+      allowfullscreen="allowfullscreen" frameborder="0"></iframe> 
     <br>
     <br>
     <br>
@@ -473,18 +399,7 @@ a{
           (<a href='https://codepen.io/bgoonz'>@bgoonz</a>) on <a href='https://codepen.io'>CodePen</a>.
         </iframe>
         <br>
-        <!-------------------------------------------------------------------------------------->
-        <br><br>
-        <p class="codepen" data-height="575" data-theme-id="dark" data-default-tab="js,result" data-user="bgoonz"
-          data-slug-hash="yLgLGBM"
-          style="height: 375px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;"
-          data-pen-title="Dodecahedrons">
-          <span>See the Pen <a href="https://codepen.io/bgoonz/pen/yLgLGBM">
-              Dodecahedrons</a> by Bryan C Guner (<a href="https://codepen.io/bgoonz">@bgoonz</a>)
-            on <a href="https://codepen.io">CodePen</a>.</span>
-        </p>
-        <script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
-        <!-------------------------------------------------------------------------------------->
+
         <br>
         <br>
         <br>
@@ -637,7 +552,7 @@ a{
           (<a href='https://codepen.io/bgoonz'>@bgoonz</a>) on <a href='https://codepen.io'>CodePen</a>.
         </iframe>
         <br>
-     
+
         <br>
         <br>
         <br>
@@ -737,10 +652,13 @@ a{
         <br>
         <hr>
         <ul>
-          <li><a class="menu" href="https://random-list-of-embedable-content.vercel.app/">Page 1</a></li>
-          <li><a class="menu" href="https://random-list-of-embedable-content.vercel.app/page2.html">Page 2</a></li>
-          <li><a class="menu" href="https://random-list-of-embedable-content.vercel.app/page3.html">Page 3</a></li>
-          <li><a class="menu" href="https://random-list-of-embedable-content.vercel.app/page4.html"> Page 4</a></li>
+          <li><a class="menu pages" href="https://random-list-of-embedable-content.vercel.app/">Page 1</a></li>
+          <li><a class="menu pages" href="https://random-list-of-embedable-content.vercel.app/page2.html">Page 2</a>
+          </li>
+          <li><a class="menu pages" href="https://random-list-of-embedable-content.vercel.app/page3.html">Page 3</a>
+          </li>
+          <li><a class="menu pages" href="https://random-list-of-embedable-content.vercel.app/page4.html"> Page 4</a>
+          </li>
         </ul>
         <br>
         <br>
