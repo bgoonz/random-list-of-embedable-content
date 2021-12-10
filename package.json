@@ -9,6 +9,6 @@
     "apollo-server-lambda": "^3.0.2",
     "axios": "^0.24.0",
     "graphql": "^16.0.0",
-    "netlify-lambda": "^2.0.0"
+    "netlify-lambda": "^2.0.15"
   }
 }
