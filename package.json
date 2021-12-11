@@ -7,8 +7,8 @@
   "license": "MIT",
   "dependencies": {
     "apollo-server-lambda": "^3.0.2",
-    "axios": "^0.21.1",
-    "graphql": "^15.5.1",
-    "netlify-lambda": "^2.0.0"
+    "axios": "^0.24.0",
+    "graphql": "^16.0.0",
+    "netlify-lambda": "^2.0.15"
   }
 }

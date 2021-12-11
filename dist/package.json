@@ -1,10 +1,10 @@
 {
   "name": "random-list-of-embedable-content",
   "version": "1.0.0",
-  "description": "# [Live Site](https://embedable-content.netlify.app/)",
+  "description": "# [Live Site](https://random-list-of-embedable-content.vercel.app/)",
   "main": "index.js",
   "dependencies": {
-    "axios": "^0.21.1",
+    "axios": "^0.24.0",
     "netlify-lambda": "^2.0.11"
   },
   "devDependencies": {},
