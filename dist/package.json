@@ -4,7 +4,7 @@
   "description": "# [Live Site](https://random-list-of-embedable-content.vercel.app/)",
   "main": "index.js",
   "dependencies": {
-    "axios": "^0.24.0",
+    "axios": "^0.26.0",
     "netlify-lambda": "^2.0.11"
   },
   "devDependencies": {},
